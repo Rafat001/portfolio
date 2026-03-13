@@ -10,12 +10,12 @@ export const profile = {
     "I build high-throughput systems, data pipelines, and developer tools that operate at massive scale. Currently at Genesys, previously shipping products at Agoda used by millions.",
   highlights: [
     { value: "5+", label: "Years of Experience" },
-    { value: "100B+", label: "Records Migrated" },
+    { value: "100B+", label: "Events Ingested" },
     { value: "$5M+", label: "Annual Savings Driven" },
   ],
   links: {
-    linkedin: "https://linkedin.com/in/majharul-islam",
-    github: "https://github.com/majharul-islam",
+    linkedin: "https://linkedin.com/in/islam-rafat",
+    github: "https://github.com/rafat001",
   },
 };
 
