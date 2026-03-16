@@ -4,9 +4,13 @@ import { useEffect, useState } from "react";
 const Header = () => {
   const [dark, setDark] = useState(() => {
     if (typeof window !== "undefined") {
-      return localStorage.getItem("theme") === "dark";
+      const stored = localStorage.getItem("theme");
+      if (stored) return stored === "dark";
+      
+      // No stored preference → default to dark
+      return true;
     }
-    return false;
+    return true; // fallback for SSR
   });
 
   useEffect(() => {
