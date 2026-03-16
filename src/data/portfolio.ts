@@ -11,7 +11,7 @@ export const profile = {
   highlights: [
     { value: "5+", label: "Years of Experience" },
     { value: "100B+", label: "Events Ingested" },
-    { value: "$5M+", label: "Annual Savings Driven" },
+    { value: "1.7%", label: "Global Handling Time Reduced" },
   ],
   links: {
     linkedin: "https://linkedin.com/in/islam-rafat",
@@ -77,8 +77,8 @@ export const experiences: Experience[] = [
     summary: "Shipped a no-code workflow platform and security systems for one of Asia's largest travel platforms.",
     bullets: [
       "**Built** a No-Code Workflow System in Scala, TypeScript & React — empowering non-technical teams to **automate** complex business processes.",
-      "**Designed** a group-based authorization layer that **eliminated** unauthorized access incidents across the platform.",
-      "**Recovered $650K** by resolving critical production flaws; integrated GPT/LLM optimizations that **saved $5M annually** in operational costs.",
+      "**Designed** a RBAC authorization layer that **eliminated** unauthorized access incidents across the platform.",
+      "**Recovered $650K** by resolving critical production flaws; automated contacts using function calling that **reduced 1.7% GHT** in operational costs.",
     ],
     techStack: ["Scala", "React", "Node.js", "TypeScript", "Kafka", "RabbitMQ", "Couchbase", "MSSQL", "Docker"],
   },
@@ -89,7 +89,7 @@ export const experiences: Experience[] = [
     summary: "Built cloud-native microservices and executed one of the largest data migrations in company history.",
     bullets: [
       "**Engineered** cloud-based microservice APIs in Java, **reducing memory usage by 20%** through targeted optimizations.",
-      "**Invented** a binary-tree parallelization approach for JSON merging, **boosting system efficiency by 65%**.",
+      "**Designed** a binary-tree parallelization approach for JSON merging, **boosting system efficiency by 30%**.",
       "**Migrated ~100 billion records** across distributed systems using Kafka, AWS Batch & RocksDB — zero data loss.",
     ],
     techStack: ["Java", "Spring Boot", "Scala", "Kafka", "MySQL", "Redis", "RocksDB", "AWS", "Prometheus"],
