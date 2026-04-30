@@ -66,7 +66,7 @@ export const experiences: Experience[] = [
     bullets: [
       "**Architected** a high-throughput ETL pipeline from the ground up, cutting query completion time by **~15%** over the legacy platform.",
       "**Led** the migration from New Relic to vendor-neutral OpenTelemetry, maintaining full observability while unlocking long-term **cost control**.",
-      "**Published** reusable Terraform modules for public REST APIs, dramatically **accelerating** infrastructure provisioning across teams.",
+      "**Extended** the Terraform Provider for Genesys Cloud by designing and implementing a new resource **(journey_views)**, enabling infrastructure-as-code management of customer journey analytics via Terraform."
     ],
     techStack: ["Java", "Python", "Docker", "Kafka", "Apache Spark", "Spring Boot", "OpenTelemetry", "Terraform", "AWS"],
   },
